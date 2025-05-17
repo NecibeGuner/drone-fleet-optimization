@@ -1,6 +1,6 @@
 import random
 import json
-from drone import Drone
+from src.drone import Drone
 from delivery import Delivery
 from noflyzone import NoFlyZone
 
