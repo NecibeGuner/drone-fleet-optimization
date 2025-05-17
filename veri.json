@@ -2,52 +2,52 @@
     "drones": [
         {
             "id": 0,
-            "max_weight": 3.68,
-            "battery": 4347,
-            "speed": 6.56,
+            "max_weight": 7.41,
+            "battery": 4478,
+            "speed": 7.56,
             "start_pos": [
-                57,
-                55
+                56,
+                92
             ]
         },
         {
             "id": 1,
-            "max_weight": 3.5,
-            "battery": 9536,
-            "speed": 12.43,
+            "max_weight": 8.0,
+            "battery": 7888,
+            "speed": 11.96,
             "start_pos": [
-                78,
-                25
+                40,
+                17
             ]
         },
         {
             "id": 2,
-            "max_weight": 5.54,
-            "battery": 3058,
-            "speed": 13.15,
+            "max_weight": 3.21,
+            "battery": 9679,
+            "speed": 13.46,
             "start_pos": [
-                33,
-                73
+                98,
+                93
             ]
         },
         {
             "id": 3,
-            "max_weight": 8.02,
-            "battery": 8352,
-            "speed": 8.97,
+            "max_weight": 3.28,
+            "battery": 8643,
+            "speed": 9.52,
             "start_pos": [
-                49,
-                46
+                99,
+                29
             ]
         },
         {
             "id": 4,
-            "max_weight": 7.69,
-            "battery": 4507,
-            "speed": 6.48,
+            "max_weight": 8.36,
+            "battery": 7615,
+            "speed": 7.72,
             "start_pos": [
-                14,
-                83
+                59,
+                14
             ]
         }
     ],
@@ -55,11 +55,11 @@
         {
             "id": 0,
             "pos": [
-                80,
-                66
+                85,
+                49
             ],
-            "weight": 3.1,
-            "priority": 4,
+            "weight": 1.21,
+            "priority": 5,
             "time_window": [
                 "09:00",
                 "12:00"
@@ -68,11 +68,11 @@
         {
             "id": 1,
             "pos": [
-                21,
-                97
+                10,
+                20
             ],
-            "weight": 0.99,
-            "priority": 5,
+            "weight": 4.54,
+            "priority": 2,
             "time_window": [
                 "09:00",
                 "12:00"
@@ -81,11 +81,11 @@
         {
             "id": 2,
             "pos": [
-                29,
-                83
+                43,
+                80
             ],
-            "weight": 3.42,
-            "priority": 1,
+            "weight": 0.77,
+            "priority": 5,
             "time_window": [
                 "09:00",
                 "12:00"
@@ -94,11 +94,11 @@
         {
             "id": 3,
             "pos": [
-                5,
-                37
+                100,
+                11
             ],
-            "weight": 4.63,
-            "priority": 4,
+            "weight": 2.66,
+            "priority": 3,
             "time_window": [
                 "09:00",
                 "12:00"
@@ -107,10 +107,10 @@
         {
             "id": 4,
             "pos": [
-                34,
-                31
+                54,
+                22
             ],
-            "weight": 1.7,
+            "weight": 4.8,
             "priority": 3,
             "time_window": [
                 "09:00",
@@ -120,11 +120,11 @@
         {
             "id": 5,
             "pos": [
-                38,
-                84
+                72,
+                38
             ],
-            "weight": 4.02,
-            "priority": 5,
+            "weight": 1.69,
+            "priority": 4,
             "time_window": [
                 "09:00",
                 "12:00"
@@ -133,11 +133,11 @@
         {
             "id": 6,
             "pos": [
-                30,
-                53
+                55,
+                56
             ],
-            "weight": 0.58,
-            "priority": 2,
+            "weight": 3.24,
+            "priority": 4,
             "time_window": [
                 "09:00",
                 "12:00"
@@ -146,11 +146,11 @@
         {
             "id": 7,
             "pos": [
-                99,
-                36
+                95,
+                40
             ],
-            "weight": 3.02,
-            "priority": 4,
+            "weight": 3.33,
+            "priority": 2,
             "time_window": [
                 "09:00",
                 "12:00"
@@ -159,11 +159,11 @@
         {
             "id": 8,
             "pos": [
-                61,
-                5
+                39,
+                52
             ],
-            "weight": 5.0,
-            "priority": 1,
+            "weight": 4.59,
+            "priority": 4,
             "time_window": [
                 "09:00",
                 "12:00"
@@ -172,11 +172,11 @@
         {
             "id": 9,
             "pos": [
-                29,
-                39
+                81,
+                3
             ],
-            "weight": 0.91,
-            "priority": 3,
+            "weight": 0.87,
+            "priority": 2,
             "time_window": [
                 "09:00",
                 "12:00"
@@ -186,10 +186,10 @@
             "id": 10,
             "pos": [
                 48,
-                36
+                88
             ],
-            "weight": 3.48,
-            "priority": 5,
+            "weight": 4.48,
+            "priority": 2,
             "time_window": [
                 "09:00",
                 "12:00"
@@ -198,11 +198,11 @@
         {
             "id": 11,
             "pos": [
-                11,
-                23
+                3,
+                49
             ],
-            "weight": 2.92,
-            "priority": 1,
+            "weight": 4.94,
+            "priority": 3,
             "time_window": [
                 "09:00",
                 "12:00"
@@ -211,11 +211,11 @@
         {
             "id": 12,
             "pos": [
-                3,
-                66
+                15,
+                50
             ],
-            "weight": 3.85,
-            "priority": 1,
+            "weight": 1.29,
+            "priority": 5,
             "time_window": [
                 "09:00",
                 "12:00"
@@ -224,11 +224,11 @@
         {
             "id": 13,
             "pos": [
-                56,
-                52
+                69,
+                74
             ],
-            "weight": 3.89,
-            "priority": 5,
+            "weight": 2.09,
+            "priority": 3,
             "time_window": [
                 "09:00",
                 "12:00"
@@ -237,11 +237,11 @@
         {
             "id": 14,
             "pos": [
-                8,
-                58
+                71,
+                17
             ],
-            "weight": 3.64,
-            "priority": 4,
+            "weight": 2.08,
+            "priority": 1,
             "time_window": [
                 "09:00",
                 "12:00"
@@ -250,11 +250,11 @@
         {
             "id": 15,
             "pos": [
-                39,
-                42
+                66,
+                47
             ],
-            "weight": 1.9,
-            "priority": 5,
+            "weight": 1.54,
+            "priority": 2,
             "time_window": [
                 "09:00",
                 "12:00"
@@ -263,10 +263,10 @@
         {
             "id": 16,
             "pos": [
-                19,
-                14
+                77,
+                91
             ],
-            "weight": 1.85,
+            "weight": 0.81,
             "priority": 1,
             "time_window": [
                 "09:00",
@@ -276,11 +276,11 @@
         {
             "id": 17,
             "pos": [
-                41,
-                70
+                38,
+                45
             ],
-            "weight": 2.48,
-            "priority": 4,
+            "weight": 3.05,
+            "priority": 3,
             "time_window": [
                 "09:00",
                 "12:00"
@@ -289,10 +289,10 @@
         {
             "id": 18,
             "pos": [
-                59,
-                87
+                26,
+                12
             ],
-            "weight": 0.94,
+            "weight": 1.12,
             "priority": 4,
             "time_window": [
                 "09:00",
@@ -302,10 +302,10 @@
         {
             "id": 19,
             "pos": [
-                85,
-                87
+                32,
+                96
             ],
-            "weight": 2.18,
+            "weight": 3.11,
             "priority": 3,
             "time_window": [
                 "09:00",
@@ -318,20 +318,20 @@
             "id": 0,
             "coordinates": [
                 [
-                    50,
-                    59
+                    44,
+                    8
                 ],
                 [
-                    42,
-                    72
+                    9,
+                    98
                 ],
                 [
-                    28,
-                    93
+                    40,
+                    53
                 ],
                 [
-                    0,
-                    54
+                    29,
+                    37
                 ]
             ],
             "active_time": [
@@ -343,20 +343,20 @@
             "id": 1,
             "coordinates": [
                 [
-                    31,
-                    36
+                    61,
+                    95
                 ],
                 [
-                    28,
-                    89
+                    14,
+                    0
                 ],
                 [
-                    36,
-                    19
+                    92,
+                    78
                 ],
                 [
-                    98,
-                    13
+                    82,
+                    78
                 ]
             ],
             "active_time": [

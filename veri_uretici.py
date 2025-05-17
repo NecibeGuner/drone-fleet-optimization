@@ -1,16 +1,16 @@
 import random
+import json
 from drone import Drone
 from delivery import Delivery
 from noflyzone import NoFlyZone
-import json
 
 def generate_drones(n):
     drones = []
     for i in range(n):
         drone = Drone(
             id=i,
-            max_weight=round(random.uniform(3, 10), 2),
-            battery=random.randint(3000, 10000),
+            max_weight=round(random.uniform(3.0, 10.0), 2),
+            battery=random.randint(4000, 10000),
             speed=round(random.uniform(5.0, 15.0), 2),
             start_pos=(random.randint(0, 100), random.randint(0, 100))
         )
@@ -42,19 +42,21 @@ def generate_no_fly_zones(n):
         zones.append(zone)
     return zones
 
-# Veri oluşturma
-drones = generate_drones(5)
-deliveries = generate_deliveries(20)
-zones = generate_no_fly_zones(2)
+def main():
+    drones = generate_drones(5)
+    deliveries = generate_deliveries(20)
+    zones = generate_no_fly_zones(2)
 
-# JSON dosyasına kaydetme
-data = {
-    "drones": [vars(d) for d in drones],
-    "deliveries": [vars(d) for d in deliveries],
-    "no_fly_zones": [vars(z) for z in zones]
-}
+    data = {
+        "drones": [d.__dict__ for d in drones],
+        "deliveries": [d.__dict__ for d in deliveries],
+        "no_fly_zones": [z.__dict__ for z in zones]
+    }
 
-with open("veri.json", "w") as f:
-    json.dump(data, f, indent=4)
+    with open("veri.json", "w") as f:
+        json.dump(data, f, indent=4)
 
-print("Veriler veri.json dosyasına kaydedildi.")
+    print("✅ veri.json dosyası başarıyla oluşturuldu.")
+
+if __name__ == "__main__":
+    main()
