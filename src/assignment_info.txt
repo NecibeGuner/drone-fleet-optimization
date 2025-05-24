@@ -1,12 +1,17 @@
-Drone 0 -> Delivery 2: path=[10, 2], dist=9.43m, time=1.2s, battery left=99.1%
-Drone 0 -> Delivery 19: path=[2, 19], dist=19.42m, time=2.6s, battery left=97.1%
-Drone 1 -> Delivery 15: path=[4, 15], dist=27.73m, time=2.3s, battery left=97.2%
-Drone 1 -> Delivery 5: path=[15, 5], dist=10.82m, time=0.9s, battery left=96.1%
-Drone 1 -> Delivery 4: path=[5, 4], dist=24.08m, time=2.0s, battery left=93.7%
-Drone 2 -> Delivery 16: path=[16], dist=0cm, time=0.0s, battery left=100.0%
-Drone 3 -> Delivery 9: path=[7, 9], dist=39.56m, time=4.2s, battery left=96.0%
-Drone 3 -> Delivery 5: path=[9, 5], dist=36.14m, time=3.8s, battery left=92.4%
-Drone 3 -> Delivery 15: path=[5, 15], dist=10.82m, time=1.1s, battery left=91.3%
-Drone 4 -> Delivery 4: path=[4], dist=0cm, time=0.0s, battery left=100.0%
-Drone 4 -> Delivery 3: path=[4, 3], dist=47.30m, time=6.1s, battery left=95.3%
-Drone 4 -> Delivery 7: path=[3, 7], dist=29.43m, time=3.8s, battery left=92.3%
+Drone 0 -> Delivery 19: path=[10, 19], dist=17.89 m, time=2.37s, battery left=4476.211145618 mAh
+Drone 0 -> Delivery 10: path=[19, 10], dist=17.89 m, time=2.37s, battery left=4474.422291236 mAh
+Drone 0 -> Delivery 2: path=[10, 2], dist=9.43 m, time=1.25s, battery left=4473.478893122794 mAh
+Drone 1 -> Delivery 4: path=[4], dist=0.00 m, time=0.0s, battery left=7888.0 mAh
+Drone 1 -> Delivery 5: path=[4, 5], dist=24.08 m, time=2.01s, battery left=7885.591681084242 mAh
+Drone 1 -> Delivery 15: path=[5, 15], dist=10.82 m, time=0.9s, battery left=7884.510015701602 mAh
+Drone 1 -> Delivery 0: path=[15, 0], dist=19.10 m, time=1.6s, battery left=7882.599518384148 mAh
+Drone 2 -> Delivery 19: path=[19], dist=0.00 m, time=0.0s, battery left=9679.0 mAh
+Drone 2 -> Delivery 2: path=[19, 2], dist=19.42 m, time=1.44s, battery left=9677.058351216105 mAh
+Drone 3 -> Delivery 0: path=[7, 0], dist=13.45 m, time=1.41s, battery left=8641.654637595293 mAh
+Drone 3 -> Delivery 15: path=[0, 15], dist=19.10 m, time=2.01s, battery left=8639.744140277839 mAh
+Drone 3 -> Delivery 5: path=[15, 5], dist=10.82 m, time=1.14s, battery left=8638.6624748952 mAh
+Drone 3 -> Delivery 9: path=[5, 9], dist=36.14 m, time=3.8s, battery left=8635.048612695282 mAh
+Drone 4 -> Delivery 3: path=[4, 3], dist=47.30 m, time=6.13s, battery left=7610.270306563846 mAh
+Drone 4 -> Delivery 7: path=[3, 7], dist=29.43 m, time=3.81s, battery left=7607.327518769934 mAh
+Drone 4 -> Delivery 5: path=[7, 5], dist=23.09 m, time=2.99s, battery left=7605.01883949381 mAh
+Drone 4 -> Delivery 14: path=[5, 14], dist=21.02 m, time=2.72s, battery left=7602.916459889648 mAh
