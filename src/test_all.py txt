@@ -2,7 +2,7 @@ import json
 from drone import Drone
 from delivery import Delivery
 from noflyzone import NoFlyZone
-from astar import a_star_yolu_bul, is_gecerli_teslimat, rota_gorsellestir
+from src.modules.astar import a_star_yolu_bul, is_gecerli_teslimat, rota_gorsellestir
 from genetic import genetic_algorithm
 
 # JSON'dan verileri yükle
