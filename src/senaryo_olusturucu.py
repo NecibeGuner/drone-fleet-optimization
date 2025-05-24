@@ -1,25 +1,22 @@
 import random
 import json
-from src.drone import Drone
+from drone import Drone
 from delivery import Delivery
 from noflyzone import NoFlyZone
 
 def generate_drones(n):
     drones = []
     for i in range(n):
-        battery_capacity = random.randint(4000, 10000)  # mAh
-        battery_level = round(random.uniform(0.3, 1.0), 2)  # %30 ile %100 arası şarj
         drone = Drone(
             id=i,
             max_weight=round(random.uniform(3.0, 10.0), 2),
-            battery=battery_capacity,
-            battery_level=battery_level,
+            battery=round(random.uniform(4000, 10000), 2),
+            battery_level=round(random.uniform(0.3, 1.0), 2),
             speed=round(random.uniform(5.0, 15.0), 2),
             start_pos=(random.randint(0, 100), random.randint(0, 100))
         )
         drones.append(drone)
     return drones
-
 
 def generate_deliveries(n):
     deliveries = []
@@ -46,10 +43,10 @@ def generate_no_fly_zones(n):
         zones.append(zone)
     return zones
 
-def main():
-    drones = generate_drones(5)
-    deliveries = generate_deliveries(20)
-    zones = generate_no_fly_zones(2)
+def generate_scenario(drone_count, delivery_count, zone_count, output_name):
+    drones = generate_drones(drone_count)
+    deliveries = generate_deliveries(delivery_count)
+    zones = generate_no_fly_zones(zone_count)
 
     data = {
         "drones": [d.__dict__ for d in drones],
@@ -57,10 +54,12 @@ def main():
         "no_fly_zones": [z.__dict__ for z in zones]
     }
 
-    with open("veri.json", "w") as f:
+    # Aynı klasöre kaydedecek, klasör yolunu kaldırdım
+    with open(f"{output_name}.json", "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4)
 
-    print("✅ veri.json dosyası başarıyla oluşturuldu.")
+    print(f"✅ {output_name}.json başarıyla oluşturuldu.")
 
 if __name__ == "__main__":
-    main()
+    generate_scenario(5, 20, 2, "senaryo1")
+    generate_scenario(10, 50, 5, "senaryo2")

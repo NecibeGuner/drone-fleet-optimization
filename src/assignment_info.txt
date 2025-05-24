@@ -1,0 +1,12 @@
+Drone 0 -> Delivery 2: path=[10, 2], dist=9.43m, time=1.2s, battery left=99.1%
+Drone 0 -> Delivery 19: path=[2, 19], dist=19.42m, time=2.6s, battery left=97.1%
+Drone 1 -> Delivery 15: path=[4, 15], dist=27.73m, time=2.3s, battery left=97.2%
+Drone 1 -> Delivery 5: path=[15, 5], dist=10.82m, time=0.9s, battery left=96.1%
+Drone 1 -> Delivery 4: path=[5, 4], dist=24.08m, time=2.0s, battery left=93.7%
+Drone 2 -> Delivery 16: path=[16], dist=0cm, time=0.0s, battery left=100.0%
+Drone 3 -> Delivery 9: path=[7, 9], dist=39.56m, time=4.2s, battery left=96.0%
+Drone 3 -> Delivery 5: path=[9, 5], dist=36.14m, time=3.8s, battery left=92.4%
+Drone 3 -> Delivery 15: path=[5, 15], dist=10.82m, time=1.1s, battery left=91.3%
+Drone 4 -> Delivery 4: path=[4], dist=0cm, time=0.0s, battery left=100.0%
+Drone 4 -> Delivery 3: path=[4, 3], dist=47.30m, time=6.1s, battery left=95.3%
+Drone 4 -> Delivery 7: path=[3, 7], dist=29.43m, time=3.8s, battery left=92.3%

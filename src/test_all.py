@@ -1,0 +1,73 @@
+import json
+from drone import Drone
+from delivery import Delivery
+from noflyzone import NoFlyZone
+from astar import a_star_yolu_bul, is_gecerli_teslimat, rota_gorsellestir
+from genetic import genetic_algorithm
+
+# JSON'dan verileri yükle
+with open("data/veri.json", "r") as f:
+    data = json.load(f)
+
+# Nesne listelerini oluştur
+drones = [Drone(**{**d, "start_pos": tuple(d["start_pos"])}) for d in data["drones"]]
+deliveries = [Delivery(**{**d, "pos": tuple(d["pos"])}) for d in data["deliveries"]]
+no_fly_zones = [
+    NoFlyZone(
+        id=z["id"],
+        coordinates=[tuple(coord) for coord in z["coordinates"]],
+        active_time=tuple(z["active_time"])
+    )
+    for z in data["no_fly_zones"]
+]
+
+# Saat (CSP ve A* için)
+zaman_str = "09:45"
+
+# 🔎 Bireysel A* ve CSP Testi (ilk drone ve teslimat)
+print("\n🔎 Bireysel A* ve CSP Testi")
+drone = drones[0]
+delivery = deliveries[0]
+print(f"📦 Teslimat: {delivery.pos}, 🛩️ Başlangıç: {drone.start_pos}")
+
+# A* algoritmasıyla yol bul
+yol = a_star_yolu_bul(
+    start=drone.start_pos,
+    goal=delivery.pos,
+    weight=delivery.weight,
+    priority=delivery.priority,
+    no_fly_zones=[z.__dict__ for z in no_fly_zones],  # HATA BURADA DÜZELTİLDİ
+    zaman_str=zaman_str
+)
+
+# Sonuçları değerlendir
+if yol:
+    print("🚀 A* ile yol bulundu:", yol)
+
+    uygun, mesaj = is_gecerli_teslimat(
+        drone, delivery, [z.__dict__ for z in no_fly_zones], zaman_str, yol
+    )
+    print("✅ CSP sonucu:", mesaj)
+
+    # Yolun görselleştirilmesi
+    rota_gorsellestir(yol, [z.__dict__ for z in no_fly_zones])
+else:
+    print("❌ A* algoritması yol bulamadı")
+
+# 🧬 Genetik Algoritma çalıştır
+def run_genetik():
+    print("\n🧬 Genetik Algoritma Çalıştırılıyor...")
+    cozum = genetic_algorithm(
+        drones, deliveries, no_fly_zones, zaman_str,
+        populasyon_boyutu=6,
+        nesil_sayisi=8
+    )
+
+    print("\n🎯 En iyi çözümdeki görev dağılımı:")
+    for drone_id, teslimatlar in cozum.items():
+        print(f"Drone {drone_id} → {len(teslimatlar)} teslimat")
+        for t in teslimatlar:
+            print(f"   - Teslimat ID: {t.id}, Konum: {t.pos}")
+
+# Genetik algoritmayı başlat
+run_genetik()
