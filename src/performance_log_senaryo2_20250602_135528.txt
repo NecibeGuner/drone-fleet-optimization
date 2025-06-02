@@ -1,0 +1,100 @@
+📘 SENARYO: senaryo2
+🕒 Saat: 13:54 | Hava Durumu: WINDY
+🚁 Drone Sayısı: 10 | 📦 Teslimat Sayısı: 50 | ⛔ No-Fly Bölge: 2
+
+✅ Başarılı Teslimatlar: 49 / 50 (%98.00)
+🔋 Ortalama Enerji Tüketimi: 0.35 mAh | Toplam Enerji: 17.13 mAh
+
+⏱️ Süreler (saniye):
+  - Genetik Algoritma (GA): 59.72 s
+  - A* Arama Algoritması (GA Yolu): 0.22 s
+  - CSP Çözümü ve A* Doğrulaması (CSP Yolu): 1.8594 s
+  - 🔁 Toplam İşlem Süreci: 61.79 s
+
+📊 Zaman Dağılımı:
+  - GA Zaman Payı: %96.64
+  - A* (GA) Zaman Payı: %0.35
+  - CSP Zaman Payı: %3.0091
+
+🧠 Teorik Zaman Karmaşıklıkları:
+  - Genetik Algoritma: O(P × G × N)
+  - A*: O(E + V log V)
+  - CSP: O(Değişken Sayısı * Değer Alanı ^ (Değişken Sayısı/2)) - Genellikle NP-complete
+
+  - **Not**: P=Popülasyon Boyutu, G=Nesil Sayısı, N=Teslimat Sayısı (GA için), E=Kenar Sayısı, V=Düğüm Sayısı (A* için)
+
+📈 Sayısal Zaman Karmaşıklıkları:
+  - GA: 37500 işlem
+  - A*: 83331.67591791289 işlem (GA ve CSP rotaları için toplam)
+  - CSP: 17 işlem (İlk atama denemesi)
+
+--- DETAYLI TESLİMAT ATAMALARI ---
+🔧 Drone 0 -> Teslimat 10 (CSP): Mesafe = 84.20 m, Süre = 3.84 s, Kalan Batarya = 15948.80
+🔧 Drone 0 -> Teslimat 29 (CSP): Mesafe = 32.64 m, Süre = 1.49 s, Kalan Batarya = 15950.71
+🔧 Drone 0 -> Teslimat 31 (CSP): Mesafe = 87.40 m, Süre = 3.98 s, Kalan Batarya = 15948.11
+🔧 Drone 0 -> Teslimat 32 (CSP): Mesafe = 70.13 m, Süre = 3.2 s, Kalan Batarya = 15950.15
+🔧 Drone 0 -> Teslimat 33 (CSP): Mesafe = 19.87 m, Süre = 0.91 s, Kalan Batarya = 15952.10
+🔧 Drone 0 -> Teslimat 40 (CSP): Mesafe = 160.57 m, Süre = 7.32 s, Kalan Batarya = 15946.82
+🔧 Drone 0 -> Teslimat 41 (CSP): Mesafe = 84.02 m, Süre = 3.83 s, Kalan Batarya = 15949.48
+🔧 Drone 0 -> Teslimat 42 (CSP): Mesafe = 80.59 m, Süre = 3.67 s, Kalan Batarya = 15951.45
+🔧 Drone 0 -> Teslimat 45 (CSP): Mesafe = 60.30 m, Süre = 2.75 s, Kalan Batarya = 15950.97
+🔧 Drone 1 -> Teslimat 0 (GA): Mesafe = 30.68 m, Süre = 1.94 s, Kalan Batarya = 10431.86
+🔧 Drone 1 -> Teslimat 2 (CSP): Mesafe = 85.06 m, Süre = 5.38 s, Kalan Batarya = 10431.42
+🔧 Drone 1 -> Teslimat 7 (GA): Mesafe = 30.68 m, Süre = 1.94 s, Kalan Batarya = 10431.61
+🔧 Drone 1 -> Teslimat 12 (CSP): Mesafe = 75.20 m, Süre = 4.75 s, Kalan Batarya = 10429.77
+🔧 Drone 1 -> Teslimat 15 (GA): Mesafe = 46.82 m, Süre = 2.96 s, Kalan Batarya = 10431.24
+🔧 Drone 1 -> Teslimat 28 (CSP): Mesafe = 130.96 m, Süre = 8.28 s, Kalan Batarya = 10430.38
+🔧 Drone 1 -> Teslimat 31 (GA): Mesafe = 30.53 m, Süre = 1.93 s, Kalan Batarya = 10430.99
+🔧 Drone 1 -> Teslimat 33 (GA): Mesafe = 68.53 m, Süre = 4.33 s, Kalan Batarya = 10430.45
+🔧 Drone 1 -> Teslimat 41 (GA): Mesafe = 65.48 m, Süre = 4.14 s, Kalan Batarya = 10429.92
+🔧 Drone 1 -> Teslimat 47 (GA): Mesafe = 12.48 m, Süre = 0.79 s, Kalan Batarya = 10429.82
+🔧 Drone 1 -> Teslimat 48 (GA): Mesafe = 79.04 m, Süre = 5.0 s, Kalan Batarya = 10429.19
+🔧 Drone 2 -> Teslimat 21 (GA): Mesafe = 15.85 m, Süre = 0.91 s, Kalan Batarya = 15425.89
+🔧 Drone 2 -> Teslimat 29 (GA): Mesafe = 16.80 m, Süre = 0.97 s, Kalan Batarya = 15425.75
+🔧 Drone 2 -> Teslimat 35 (GA): Mesafe = 17.95 m, Süre = 1.03 s, Kalan Batarya = 15425.61
+🔧 Drone 2 -> Teslimat 37 (GA): Mesafe = 8.78 m, Süre = 0.51 s, Kalan Batarya = 15425.54
+🔧 Drone 2 -> Teslimat 46 (GA): Mesafe = 25.10 m, Süre = 1.45 s, Kalan Batarya = 15425.34
+🔧 Drone 3 -> Teslimat 14 (CSP): Mesafe = 160.55 m, Süre = 15.69 s, Kalan Batarya = 15272.75
+🔧 Drone 3 -> Teslimat 30 (CSP): Mesafe = 83.08 m, Süre = 8.12 s, Kalan Batarya = 15272.09
+🔧 Drone 3 -> Teslimat 34 (CSP): Mesafe = 84.34 m, Süre = 8.24 s, Kalan Batarya = 15270.88
+🔧 Drone 3 -> Teslimat 38 (CSP): Mesafe = 66.46 m, Süre = 6.5 s, Kalan Batarya = 15271.56
+🔧 Drone 6 -> Teslimat 3 (GA): Mesafe = 85.22 m, Süre = 4.95 s, Kalan Batarya = 14912.86
+🔧 Drone 6 -> Teslimat 4 (GA): Mesafe = 27.81 m, Süre = 1.62 s, Kalan Batarya = 14912.64
+🔧 Drone 6 -> Teslimat 6 (GA): Mesafe = 34.76 m, Süre = 2.02 s, Kalan Batarya = 14912.36
+🔧 Drone 6 -> Teslimat 8 (GA): Mesafe = 29.34 m, Süre = 1.71 s, Kalan Batarya = 14912.13
+🔧 Drone 6 -> Teslimat 9 (GA): Mesafe = 26.62 m, Süre = 1.55 s, Kalan Batarya = 14911.91
+🔧 Drone 6 -> Teslimat 10 (GA): Mesafe = 46.52 m, Süre = 2.7 s, Kalan Batarya = 14911.54
+🔧 Drone 6 -> Teslimat 11 (GA): Mesafe = 6.77 m, Süre = 0.39 s, Kalan Batarya = 14911.49
+🔧 Drone 6 -> Teslimat 12 (GA): Mesafe = 21.39 m, Süre = 1.24 s, Kalan Batarya = 14911.32
+🔧 Drone 6 -> Teslimat 13 (GA): Mesafe = 70.34 m, Süre = 4.09 s, Kalan Batarya = 14910.75
+🔧 Drone 6 -> Teslimat 14 (GA): Mesafe = 145.83 m, Süre = 8.48 s, Kalan Batarya = 14909.59
+🔧 Drone 6 -> Teslimat 17 (GA): Mesafe = 76.88 m, Süre = 4.47 s, Kalan Batarya = 14908.97
+🔧 Drone 6 -> Teslimat 19 (GA): Mesafe = 47.51 m, Süre = 2.76 s, Kalan Batarya = 14908.59
+🔧 Drone 6 -> Teslimat 20 (GA): Mesafe = 29.11 m, Süre = 1.69 s, Kalan Batarya = 14908.36
+🔧 Drone 6 -> Teslimat 22 (GA): Mesafe = 36.74 m, Süre = 2.14 s, Kalan Batarya = 14908.07
+🔧 Drone 6 -> Teslimat 27 (GA): Mesafe = 44.63 m, Süre = 2.59 s, Kalan Batarya = 14907.71
+🔧 Drone 6 -> Teslimat 30 (GA): Mesafe = 56.04 m, Süre = 3.26 s, Kalan Batarya = 14907.26
+🔧 Drone 6 -> Teslimat 32 (GA): Mesafe = 33.38 m, Süre = 1.94 s, Kalan Batarya = 14906.99
+🔧 Drone 6 -> Teslimat 34 (GA): Mesafe = 20.19 m, Süre = 1.17 s, Kalan Batarya = 14906.83
+🔧 Drone 6 -> Teslimat 36 (GA): Mesafe = 31.03 m, Süre = 1.8 s, Kalan Batarya = 14906.58
+🔧 Drone 6 -> Teslimat 38 (GA): Mesafe = 44.27 m, Süre = 2.57 s, Kalan Batarya = 14906.23
+🔧 Drone 6 -> Teslimat 39 (GA): Mesafe = 40.84 m, Süre = 2.37 s, Kalan Batarya = 14905.90
+🔧 Drone 6 -> Teslimat 42 (GA): Mesafe = 30.61 m, Süre = 1.78 s, Kalan Batarya = 14905.66
+🔧 Drone 6 -> Teslimat 49 (GA): Mesafe = 29.27 m, Süre = 1.7 s, Kalan Batarya = 14905.42
+🔧 Drone 8 -> Teslimat 6 (CSP): Mesafe = 100.79 m, Süre = 7.48 s, Kalan Batarya = 10974.95
+🔧 Drone 9 -> Teslimat 1 (GA): Mesafe = 72.00 m, Süre = 3.09 s, Kalan Batarya = 19187.40
+🔧 Drone 9 -> Teslimat 2 (GA): Mesafe = 10.96 m, Süre = 0.47 s, Kalan Batarya = 19187.31
+🔧 Drone 9 -> Teslimat 5 (GA): Mesafe = 29.12 m, Süre = 1.25 s, Kalan Batarya = 19187.07
+🔧 Drone 9 -> Teslimat 16 (GA): Mesafe = 27.99 m, Süre = 1.2 s, Kalan Batarya = 19186.85
+🔧 Drone 9 -> Teslimat 23 (GA): Mesafe = 15.10 m, Süre = 0.65 s, Kalan Batarya = 19186.73
+🔧 Drone 9 -> Teslimat 24 (GA): Mesafe = 24.11 m, Süre = 1.03 s, Kalan Batarya = 19186.54
+🔧 Drone 9 -> Teslimat 25 (GA): Mesafe = 27.05 m, Süre = 1.16 s, Kalan Batarya = 19186.32
+🔧 Drone 9 -> Teslimat 26 (GA): Mesafe = 103.75 m, Süre = 4.45 s, Kalan Batarya = 19185.49
+🔧 Drone 9 -> Teslimat 28 (GA): Mesafe = 83.41 m, Süre = 3.58 s, Kalan Batarya = 19184.82
+🔧 Drone 9 -> Teslimat 40 (GA): Mesafe = 76.48 m, Süre = 3.28 s, Kalan Batarya = 19184.21
+🔧 Drone 9 -> Teslimat 43 (GA): Mesafe = 156.15 m, Süre = 6.69 s, Kalan Batarya = 19182.96
+🔧 Drone 9 -> Teslimat 44 (GA): Mesafe = 21.33 m, Süre = 0.91 s, Kalan Batarya = 19182.79
+🔧 Drone 9 -> Teslimat 45 (GA): Mesafe = 30.51 m, Süre = 1.31 s, Kalan Batarya = 19182.55
+
+--- ATANAMAYAN TESLİMATLAR ---
+⚠️ Teslimat 18 atanamadı: Uygun drone bulunamadı veya rota imkansız

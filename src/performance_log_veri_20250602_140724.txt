@@ -1,0 +1,53 @@
+📘 SENARYO: veri
+🕒 Saat: 14:07 | Hava Durumu: NORMAL
+🚁 Drone Sayısı: 5 | 📦 Teslimat Sayısı: 20 | ⛔ No-Fly Bölge: 3
+
+✅ Başarılı Teslimatlar: 6 / 20 (%30.00)
+🔋 Ortalama Enerji Tüketimi: 0.44 mAh | Toplam Enerji: 2.62 mAh
+
+⏱️ Süreler (saniye):
+  - Genetik Algoritma (GA): 12.88 s
+  - A* Arama Algoritması (GA Yolu): 0.01 s
+  - CSP Çözümü ve A* Doğrulaması (CSP Yolu): 0.2090 s
+  - 🔁 Toplam İşlem Süreci: 13.10 s
+
+📊 Zaman Dağılımı:
+  - GA Zaman Payı: %98.33
+  - A* (GA) Zaman Payı: %0.08
+  - CSP Zaman Payı: %1.5961
+
+🧠 Teorik Zaman Karmaşıklıkları:
+  - Genetik Algoritma: O(P × G × N)
+  - A*: O(E + V log V)
+  - CSP: O(Değişken Sayısı * Değer Alanı ^ (Değişken Sayısı/2)) - Genellikle NP-complete
+
+  - **Not**: P=Popülasyon Boyutu, G=Nesil Sayısı, N=Teslimat Sayısı (GA için), E=Kenar Sayısı, V=Düğüm Sayısı (A* için)
+
+📈 Sayısal Zaman Karmaşıklıkları:
+  - GA: 15000 işlem
+  - A*: 1001.4878728264789 işlem (GA ve CSP rotaları için toplam)
+  - CSP: 0 işlem (İlk atama denemesi)
+
+--- DETAYLI TESLİMAT ATAMALARI ---
+🔧 Drone 1 -> Teslimat 2 (GA): Mesafe = 21.21 m, Süre = 2.65 s, Kalan Batarya = 11999.83
+🔧 Drone 1 -> Teslimat 20 (GA): Mesafe = 15.00 m, Süre = 1.88 s, Kalan Batarya = 11999.71
+🔧 Drone 2 -> Teslimat 8 (GA): Mesafe = 104.82 m, Süre = 10.48 s, Kalan Batarya = 9999.16
+🔧 Drone 2 -> Teslimat 11 (GA): Mesafe = 91.23 m, Süre = 9.12 s, Kalan Batarya = 9998.43
+🔧 Drone 3 -> Teslimat 19 (GA): Mesafe = 36.40 m, Süre = 5.2 s, Kalan Batarya = 14999.71
+🔧 Drone 5 -> Teslimat 17 (GA): Mesafe = 59.26 m, Süre = 11.85 s, Kalan Batarya = 19999.53
+
+--- ATANAMAYAN TESLİMATLAR ---
+⚠️ Teslimat 1 atanamadı: Uygun drone bulunamadı veya rota imkansız
+⚠️ Teslimat 3 atanamadı: Uygun drone bulunamadı veya rota imkansız
+⚠️ Teslimat 4 atanamadı: Uygun drone bulunamadı veya rota imkansız
+⚠️ Teslimat 5 atanamadı: Uygun drone bulunamadı veya rota imkansız
+⚠️ Teslimat 6 atanamadı: Uygun drone bulunamadı veya rota imkansız
+⚠️ Teslimat 7 atanamadı: Uygun drone bulunamadı veya rota imkansız
+⚠️ Teslimat 9 atanamadı: Uygun drone bulunamadı veya rota imkansız
+⚠️ Teslimat 10 atanamadı: Uygun drone bulunamadı veya rota imkansız
+⚠️ Teslimat 12 atanamadı: Uygun drone bulunamadı veya rota imkansız
+⚠️ Teslimat 13 atanamadı: Uygun drone bulunamadı veya rota imkansız
+⚠️ Teslimat 14 atanamadı: Uygun drone bulunamadı veya rota imkansız
+⚠️ Teslimat 15 atanamadı: Uygun drone bulunamadı veya rota imkansız
+⚠️ Teslimat 16 atanamadı: Uygun drone bulunamadı veya rota imkansız
+⚠️ Teslimat 18 atanamadı: Uygun drone bulunamadı veya rota imkansız
