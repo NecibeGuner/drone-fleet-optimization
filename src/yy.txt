@@ -1,0 +1,34 @@
+
+📘 SENARYO: data/veri.json
+🚁 Drone Sayısı: 5 | 📦 Teslimat Sayısı: 20 | ⛔ No-Fly Bölge: 3
+
+✅ Başarılı Teslimatlar: 3 / 20 (%15.00)
+🔋 Ortalama Enerji Tüketimi: 3.25 birim | Toplam Enerji: 9.74 birim
+
+⏱️ Süreler (saniye):
+ - Genetik Algoritma (GA): 133.08 s
+ - A* Arama Algoritması: 0.00 s
+ - CSP Kontrolleri (tahmini): 0.0015 s
+ - 🔁 Toplam İşlem Süreci: 133.08 s
+
+📊 Zaman Dağılımı:
+ - GA Zaman Payı: %100.00
+ - A* Zaman Payı: %0.00
+ - CSP Zaman Payı (tahmini): %0.0011
+
+🧠 Teorik Zaman Karmaşıklıkları (Big-O):
+ - Genetik Algoritma (GA): O(P × G × N)
+ - A* Algoritması: O(E + V log V)
+ - CSP Kontrolü: O(P × Z)
+
+📈 Sayısal Zaman Karmaşıklıkları:
+ - GA: 200000 işlem
+ - A*: 193 işlem
+ - CSP: 30 işlem
+
+📈 Algoritma Verimliliği Yorumu:
+ → ❌ Düşük başarı. GA daha iyi teslimat dağılımı yapmalı.
+
+🔧 Drone 1 -> Teslimat 6: Mesafe = 14.14 m, Süre = 1.77 s, Kalan Batarya = 11995.86
+🔧 Drone 2 -> Teslimat 1: Mesafe = 0.00 m, Süre = 0.0 s, Kalan Batarya = 10000.00
+🔧 Drone 3 -> Teslimat 16: Mesafe = 83.22 m, Süre = 11.89 s, Kalan Batarya = 14980.19

@@ -36,6 +36,5 @@ class GraphBuilder:
         return math.hypot(a.x - b.x, a.y - b.y)
 
     def _crosses_nofly(self, a, b):
-        """a→b segmenti herhangi bir no‐fly zone’u kesiyorsa True döner."""
-        segment = LineString([(a.x, a.y), (b.x, b.y)])
-        return any(segment.crosses(zone) for zone in self.nofly)
+     segment = LineString([(a.x, a.y), (b.x, b.y)])
+     return any(segment.crosses(zone.polygon if hasattr(zone, "polygon") else zone) for zone in self.nofly)

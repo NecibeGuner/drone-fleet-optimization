@@ -1,0 +1,54 @@
+
+📘 SENARYO: 2
+🚁 Drone Sayısı: 10 | 📦 Teslimat Sayısı: 50 | ⛔ No-Fly Bölge: 0
+
+✅ Başarılı Teslimatlar: 30 / 50 (%60.00)
+🔋 Ortalama Enerji Tüketimi: 2.60 birim | Toplam Enerji: 78.00 birim
+
+⏱️ Süreler (saniye):
+ - Genetik Algoritma (GA): 152.33 s
+ - A* Arama Algoritması: 0.01 s
+ - CSP Kontrolleri (tahmini): 0.0150 s
+ - 🔁 Toplam İşlem Süresi: 152.34 s
+
+📊 Zaman Dağılımı:
+ - GA Zaman Payı: %99.99
+ - A* Zaman Payı: %0.01
+ - CSP Zaman Payı (tahmini): %0.0098
+
+🧠 Teorik Zaman Karmaşıklıkları (Big-O):
+ - Genetik Algoritma (GA): O(P × G × N)
+   (P: popülasyon boyutu, G: nesil sayısı, N: görev sayısı)
+ - A* Algoritması: O(E + V log V)
+   (E: kenar sayısı, V: düğüm sayısı)
+ - CSP Kontrolü: O(P × Z)
+   (P: yol uzunluğu, Z: no-fly zone sayısı)
+
+🧮 Sayısal Zaman Karmaşıklıkları:
+ - GA: 500000 işlem
+ - A*: 1507 işlem
+ - CSP: 0 işlem
+
+📈 Algoritma Verimliliği Yorumu:
+ → ⚠️ Orta düzey başarı. Parametreler veya no-fly zone etkili olabilir.
+
+⚠️ Teslimat 46 atanamadı: Teslimat zaten başka drone'a atanmış
+⚠️ Teslimat 35 atanamadı: Teslimat zaten başka drone'a atanmış
+⚠️ Teslimat 13 atanamadı: Teslimat zaten başka drone'a atanmış
+⚠️ Teslimat 22 atanamadı: Teslimat zaten başka drone'a atanmış
+⚠️ Teslimat 11 atanamadı: Teslimat zaten başka drone'a atanmış
+⚠️ Teslimat 25 atanamadı: Teslimat zaten başka drone'a atanmış
+⚠️ Teslimat 49 atanamadı: Teslimat zaten başka drone'a atanmış
+⚠️ Teslimat 20 atanamadı: Teslimat zaten başka drone'a atanmış
+⚠️ Teslimat 8 atanamadı: Teslimat zaten başka drone'a atanmış
+⚠️ Teslimat 20 atanamadı: Teslimat zaten başka drone'a atanmış
+⚠️ Teslimat 22 atanamadı: Teslimat zaten başka drone'a atanmış
+⚠️ Teslimat 6 atanamadı: Teslimat zaten başka drone'a atanmış
+⚠️ Teslimat 36 atanamadı: Teslimat zaten başka drone'a atanmış
+⚠️ Teslimat 48 atanamadı: Teslimat zaten başka drone'a atanmış
+⚠️ Teslimat 8 atanamadı: Teslimat zaten başka drone'a atanmış
+⚠️ Teslimat 36 atanamadı: Teslimat zaten başka drone'a atanmış
+⚠️ Teslimat 33 atanamadı: Teslimat zaten başka drone'a atanmış
+⚠️ Teslimat 46 atanamadı: Teslimat zaten başka drone'a atanmış
+⚠️ Teslimat 44 atanamadı: Teslimat zaten başka drone'a atanmış
+⚠️ Teslimat 2 atanamadı: Teslimat zaten başka drone'a atanmış
